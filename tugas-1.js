@@ -1,7 +1,5 @@
-String.prototype.reverse = function () {
-  const dibalik = "thor";
-
-  return this.reverse();
+String.prototype.balikString = function (str) {
+  return str.split("").reverse().join("");
 };
 
-console.log(dibalik);
+console.log(String.prototype.balikString("Thor"));
